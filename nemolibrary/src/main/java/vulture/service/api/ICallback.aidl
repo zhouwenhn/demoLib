@@ -5,5 +5,5 @@ package vulture.service.api;
 
 interface ICallback {
 
-    void onSpeakStatusListener(boolean isCompleted);//播报tts状态
+    void onSpeakStatusListener(boolean isCompleted);
 }

@@ -188,7 +188,7 @@ _reply.recycle();
 _data.recycle();
 }
 }
-//唤醒开关
+
 
 @Override public void registerListener(vulture.service.api.ICallback callback) throws android.os.RemoteException
 {
@@ -306,7 +306,7 @@ public void interruptTts(boolean isInterruptTTS) throws android.os.RemoteExcepti
 //是否打断tts
 
 public void enableSpeech(boolean isEnable) throws android.os.RemoteException;
-//唤醒开关
+
 
 public void registerListener(vulture.service.api.ICallback callback) throws android.os.RemoteException;
 //注册回调

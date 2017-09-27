@@ -8,10 +8,6 @@ import android.os.Bundle;
 import android.util.Log;
 
 
-/**
- * Created by zhouwen on 2017/8/21.
- */
-
 public class NemoReceiver extends BroadcastReceiver {
     private static final String ACTION_TAKE_PICTURE = "nemo.intent.action.TAKE_PICTURE";
     private static final String ACTION_CANCEL_TAKE_PICTURE =  "nemo.intent.action.CANCEL_TAKE_PICTURE";

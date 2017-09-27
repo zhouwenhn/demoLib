@@ -8,7 +8,6 @@ import android.util.Log;
 /**
  * Created by zhouwen on 2017/6/13.
  * 用于经纶接收小鱼语音识别广播 Bundle（voice_recognition_str）：String
- * 注册到经纶app manifest中
  */
 //        Intent intent2 = new Intent();
 //                intent2.setAction("nemo.intent.action.ASR");
